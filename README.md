@@ -1,5 +1,5 @@
 # Portfolio
-
+This is my second attempt of creating a personal portfolio. After finishing General Assembly's software immersive program, I wanted to redo my portfolio and showcase the additional skill sets I picked up towards the end of the program. 
 ## Wire Frames
 pending upload
 ## User Stories
