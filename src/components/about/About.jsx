@@ -23,28 +23,28 @@ const About = () => {
             <article className="about__card">
               <FaHardHat className='about__icon'/>
               <h4>Experience</h4>
-              <h5> 1+ Year Coding Fun Projects</h5>
-              <small> 3+ Years in the Construction Industry </small>
+              <small> 1+ Year Coding Fun Projects 
+                <br></br>3+ Years in the Construction Industry </small>
             </article>
             <article className="about__card">
               <TbCertificate className='about__icon'/>
               <h4>Education</h4>
-              <h5> General Assembly Software Engineering Immersive </h5>
-              <small> B.S. Civil Engineering from New Jersey Institute of Technology </small>
+              <small> General Assembly Software Engineering Immersive
+              <br></br>B.S. Civil Engineering from New Jersey Institute of Technology </small>
             </article>
             <article className="about__card">
               <AiOutlineCode className='about__icon'/>
               <h4>Technologies Learned</h4>
-              <small> JavaScript | HTML | CSS | Git/Github | APIs | React.js | Node.js | Python | Django | </small>
-              <h5>MongoDB | PostgreSQL | Express | MERN | VS Code | CLI | </h5>
+              <small> JavaScript | HTML | CSS | Git/Github | APIs | React.js | Node.js | Python | Django | MongoDB | PostgreSQL | Express | MERN | VS Code | CLI | </small>
+              
             </article>
-
+            </div>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur error nobis unde enim eum excepturi, ipsa, in, expedita obcaecati a fugiat dicta! Reiciendis nulla minima, nemo possimus blanditiis repellendus cupiditate!
             </p>
 
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
-          </div>
+          
         </div>
       </div>
 
