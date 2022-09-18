@@ -71,7 +71,11 @@ header {
     header{
         height: 100vh;
     }
-    .header__socials,
+    .social_header{
+        height: 460px;
+        margin-left: 5px;
+    }
+        
     .scroll__down {
         display: none;
     }
