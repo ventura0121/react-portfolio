@@ -24,12 +24,12 @@ const Hobby = () => {
       <div className="container hobbies__container">
         <div className="hobbies__me">
           <div className="hobbies__me-image">
-            <img className="single__image" src={Anime} alt="About Image" />
-            <img className="single__image" src={Book} alt="About Image" />
             <img className="single__image" src={Hiking} alt="About Image" />
-            <img className="single__image" src={Penta} alt="About Image" />
             <img className="single__image" src={Snowboard} alt="About Image" />
             <img className="single__image" src={Bowling} alt="About Image" />
+            <img className="single__image" src={Penta} alt="About Image" />
+            <img className="single__image" src={Book} alt="About Image" />
+            <img className="single__image" src={Anime} alt="About Image" />
           </div>  
         </div>    
 
