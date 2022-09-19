@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Construction from '../../assets/Construction.jpg'
+import Graduation from '../../assets/Graduation.JPG'
 import {FaHardHat} from 'react-icons/fa'
 import {TbCertificate} from 'react-icons/tb'
 import {AiOutlineCode} from 'react-icons/ai'
@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={Construction} alt="About Image" />
+            <img src={Graduation} alt="About Image" />
           </div>  
         </div>    
 
