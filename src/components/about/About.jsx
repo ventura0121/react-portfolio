@@ -10,7 +10,9 @@ const About = () => {
     <section id ="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
-
+          <p className="about__info">
+           Hi there! I am a second generation Latino - the first in my family to go and graduate from college. I graduated with a Bachelor of Science degree in Civil Engineering in 2020 and worked as a project engineer for two years at a construction management company. I completed the General Assembly Software Engineering Immersive program this past summer as I begin my grand entrance in the tech field. Instead of building skyscrapers, I am now building fun coding projects!
+          </p>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -39,11 +41,7 @@ const About = () => {
               
             </article>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur error nobis unde enim eum excepturi, ipsa, in, expedita obcaecati a fugiat dicta! Reiciendis nulla minima, nemo possimus blanditiis repellendus cupiditate!
-            </p>
 
-            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
           
         </div>
       </div>

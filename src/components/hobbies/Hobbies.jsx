@@ -34,8 +34,8 @@ const Hobby = () => {
         </div>    
 
         <div className='hobbies__content'>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing eult. Tenetur error nobis unde enim eum excepturi, ipsa, in, expedita obcaecati a fugiat dicta! Reiciendis nulla minima, nemo possimus blanditiis repellendus cupiditate!
+            <p className="about__info">
+              I am constantly learning new skills and taking on new challenges. I get satisfaction from failure because I know I am one step closer to achieving anything I set my mind to. 
             </p>
           <div className="hobbies__cards">
             <article BiDumbbell className="hobbies__card">
@@ -55,7 +55,7 @@ const Hobby = () => {
                 <ul>Personal Finance</ul>
                 <ul>Credit Card Rewards</ul>
                 <ul>Boxing</ul>
-                <ul>Soccer</ul>
+                <ul>Playing Soccer</ul>
                 <ul>Snow Boarding</ul>
                 <ul>Salsa Dancing</ul>
                 <ul>League of Legends (ADC Main)</ul>

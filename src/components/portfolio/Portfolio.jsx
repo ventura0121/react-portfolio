@@ -9,7 +9,7 @@ const data =[
   {
     id:1, 
     image: Project1,
-    title: 'BookNook',
+    title: 'BookNook - A MERN Stack CRUD app used to save and rate study spots',
     github: "https://github.com/Snapdragons-Mars",
     demo: "https://book-nooks.netlify.app/"
   },
@@ -17,7 +17,7 @@ const data =[
   {
     id:2, 
     image: Project2,
-    title: "Milano's Masonry",
+    title: "Milano's Masonry Website - See company's info, services, and more ",
     github:"https://github.com/ventura0121/Milanos",
     demo: "https://milanosmasonry.netlify.app/"
   },
@@ -25,7 +25,7 @@ const data =[
   {
     id:3, 
     image: Project3,
-    title: 'Recipe',
+    title: 'Calorie Meal Generator - Meet your caloric needs using this app',
     github:"https://github.com/ventura0121/Daily-Recipes",
     demo: "https://recipe-generator-fv.netlify.app/"
   },
@@ -33,7 +33,7 @@ const data =[
   {
     id:4, 
     image: Soon,
-    title: 'Project4',
+    title: 'Project 4',
     github: "https://github.com/ventura0121",
     demo:  "https://media.giphy.com/media/840zvMIuYv3ZwXanfN/giphy.gif"
   },
@@ -41,7 +41,7 @@ const data =[
   {
     id:5, 
     image: Soon,
-    title: 'Project5',
+    title: 'Project 5',
     github: "https://github.com/ventura0121",
     demo: "https://media.giphy.com/media/ncU3bkZ5ghDlS/giphy.gif"
   },
@@ -49,7 +49,7 @@ const data =[
   {
     id:6, 
     image: Soon,
-    title: 'Project6',
+    title: 'Project 6',
     github: "https://github.com/ventura0121",
     demo:  "https://media.giphy.com/media/3ohhwu4yGazpjbe2KQ/giphy.gif"
   },
@@ -71,9 +71,11 @@ const Portfolio = () => {
               <img src={image} alt={title}/>
             </div>
             <h3>{title}</h3>
-            <div className="portfolio__item-cta">
-              <a href={github} className='btn' targets='_blank'>Github</a>
-              <a href={demo} className='btn btn-primary' targets='_blank'>Live Demo</a>
+            <div className="card__info">
+              <div className="portfolio__item-cta">
+                <a href={github} className='btn' targets='_blank'>Github</a>
+                <a href={demo} className='btn btn-primary' targets='_blank'>Live Demo</a>
+              </div>
             </div>
           </article>
           )

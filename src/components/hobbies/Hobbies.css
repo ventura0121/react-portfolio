@@ -1,12 +1,12 @@
 .hobbies__container {
     display: grid;
     grid-template-columns: 35% 50%;
-    gap: 15%;
+    gap: 10%;
+    padding-left: 3rem;
 }
 
 .hobbies__me {
-    width: 120%;
-    aspect-ratio: 1/1.33;
+    width: 100%;
     border-radius: 2rem;
 }
 
@@ -15,17 +15,16 @@
     grid-auto-flow: column;
     grid-template-columns: fit-content(100%) fit-content(100%) 1fr;
     grid-template-rows: fit-content(100%) fit-content(100%) 1fr;
-    grid-gap: 10px;
     overflow: hidden;
     align-items: center;
 }
 
 .single__image{
     border-radius: 1rem;
-    margin-left: 7px;
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    margin-left: 1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    max-width: 80%;
 }
 
 .single__image:hover {

@@ -17,7 +17,6 @@
     );
     display: grid;
     place-items: center;
-    margin-top: 7rem;
 }
 
 .about__me-image {
@@ -68,9 +67,22 @@
     color: var(--color-light);
 }
 
-.about__content p {
+.about__info {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    text-align:justify;
+    font-size: large;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 5rem;
+    border-color: var(--color-primary-variant);
+    border-radius: 1rem;
+    background: var(--color-primary);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    
 }
 
 /* ==========Media Queries (Medium Devices)============  */
