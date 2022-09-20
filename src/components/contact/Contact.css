@@ -1,11 +1,14 @@
+#contact {
+    margin-bottom: -20rem;
+}
 .contact__container{
     width: 58%;
     display: grid;
-    grid-template-columns: 38% 65%;
+    grid-template-columns: 40% 55%;
     gap: 12%;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-58%);
 }
 
 .contact__options {
@@ -68,10 +71,11 @@ input, textarea {
         margin: auto;
         margin-bottom: 1.5rem;
     }
-    
+
     form{
         width: 80%;
         margin: auto;
+
     }
 }
 
