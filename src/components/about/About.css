@@ -110,6 +110,11 @@
 
 /* ==========Media Queries (Small Devices)============  */
 @media screen and (max-width: 600px){
+
+    #about h4{
+    margin-top: 2rem;
+    }
+
     #about p {
         margin: auto;
     }
@@ -117,17 +122,16 @@
         width: 100%;
         margin-top: 5rem;
         margin-bottom: 5rem;
-        
     }
 
     .about__cards {
         gap: 1rem;
-        width: 100%;
-        margin-block-end: auto;
+        width: 125%;
+        margin-left: -2rem;
     }
 
     .about__content {
-        text-align: center;
+        text-align: justify;
     }
     .about__content p{
         margin: 1rem 0;
