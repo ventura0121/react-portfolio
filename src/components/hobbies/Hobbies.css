@@ -67,12 +67,8 @@
     margin-right: 15px;
 }
 
-.hobbies__card h5 {
-    font-size: 0.95rem;
-}
-
-.hobbies__card small {
-    font-size: .9rem;
+.hobbies__card medium {
+    font-size: 1rem;
     color: var(--color-light);
 }
 

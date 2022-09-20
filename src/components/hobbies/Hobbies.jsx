@@ -39,7 +39,7 @@ const Hobby = () => {
             </p>
           <div className="hobbies__cards">
             <article BiDumbbell className="hobbies__card">
-              <h4>
+              <h3>
                 <BiDumbbell className='hobbies__icon'/>
                 <FaSnowboarding className='hobbies__icon'/>
                 <BiRestaurant className='hobbies__icon'/>
@@ -47,8 +47,8 @@ const Hobby = () => {
                 <FaHiking className='hobbies__icon'/>
                 <MdSportsSoccer className='hobbies__icon'/>
                 <CgGames className='hobbies__icon'/>
-              </h4>
-              <small className="hobby__list"> 
+              </h3>
+              <medium className="hobby__list"> 
                 <ul>Weight Lifting</ul>
                 <ul>Cooking/Eating</ul>
                 <ul>Hiking</ul>
@@ -60,7 +60,7 @@ const Hobby = () => {
                 <ul>Salsa Dancing</ul>
                 <ul>League of Legends (ADC Main)</ul>
                 <ul>Anime</ul>
-              </small>
+              </medium>
             </article>
             </div>
         </div>
