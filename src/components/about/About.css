@@ -60,12 +60,8 @@
 
 }
 
-.about__card h5 {
-    font-size: 0.95rem;
-}
-
-.about__card small {
-    font-size: .75rem;
+.about__card medium {
+    font-size: 1rem;
     color: var(--color-light);
 }
 

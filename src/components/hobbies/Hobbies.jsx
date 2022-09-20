@@ -18,7 +18,7 @@ import Bowling from '../../assets/Bowling.jpg'
 const Hobby = () => {
   return (
     <section id ="hobbies">
-      <h5>Some Of My</h5>
+      <h4>Some Of My</h4>
       <h2>Hobbies</h2>
 
       <div className="hobbies__container">
