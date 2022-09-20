@@ -21,7 +21,7 @@ const Hobby = () => {
       <h5>Some Of My</h5>
       <h2>Hobbies</h2>
 
-      <div className="container hobbies__container">
+      <div className="hobbies__container">
         <div className="hobbies__me">
           <div className="hobbies__me-image">
             <img className="single__image" src={Hiking} alt="About Image" />
@@ -34,7 +34,7 @@ const Hobby = () => {
         </div>    
 
         <div className='hobbies__content'>
-            <p className="about__info">
+            <p className="hobbies__info">
               I am constantly learning new skills and taking on new challenges. I get satisfaction from failure because I know I am one step closer to achieving anything I set my mind to. 
             </p>
           <div className="hobbies__cards">

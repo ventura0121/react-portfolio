@@ -50,7 +50,6 @@
 
 .card__info{
 	position: relative;
-	left:
 }
 
 .portfolio__item:hover {
@@ -86,5 +85,8 @@
 	.portfolio__container{
 		grid-template-columns: 1fr;
 		gap: 1rem;
+		margin: auto;
+		margin-bottom: 5rem;
+		width: 75%;
 	}
 }

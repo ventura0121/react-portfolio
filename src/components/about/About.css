@@ -104,14 +104,17 @@
 
 /* ==========Media Queries (Small Devices)============  */
 @media screen and (max-width: 600px){
+
     .about__me {
-        height: 65%;
-        margin: 1rem auto 3rem;
+        width: 75%;
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
     }
 
     .about__cards {
         gap: 1rem;
-        width: 90%;
+        width: 75%;
         margin: auto;
     }
 
@@ -120,5 +123,15 @@
     }
     .about__content p{
         margin: 1.5rem 0;
+    }
+
+    .about__info {
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-align: center;
+        font-size: smaller;
     }
 }

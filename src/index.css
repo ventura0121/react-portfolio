@@ -126,8 +126,14 @@ section {
 
 /* ==========Media Queries (Small Devices)============  */
 @media screen and (max-width: 600px){
+    section {
+        display:contents;
+    }
     .container{
         width: var(--container-width-sm);
+        overflow: hidden;
+
+
 }
 
 section > h2 {
