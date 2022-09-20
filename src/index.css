@@ -12,9 +12,8 @@
 
 :root {
     /* establishing CSS variables for the project */
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
+    --color-bg: #1f2238;
+    --color-bg-variant: #2c316c;
     --color-primary: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
@@ -119,7 +118,7 @@ img {
         width: 100%;
         display: contents;
         overflow: hidden;
-}
+    }
 }
 
 /* ==========Media Queries (Small Devices)============  */
@@ -130,8 +129,6 @@ img {
     .container{
         width: var(--container-width-sm);
         overflow: hidden;
-
-
 }
 
 section > h2 {
