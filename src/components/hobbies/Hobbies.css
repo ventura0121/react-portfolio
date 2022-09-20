@@ -95,18 +95,18 @@
 @media screen and (max-width: 1024px){
     .hobbies__container {
         grid-template-columns: 1fr;
-        gap: 0;
+        width: 80%;
+        display: inline;
+        margin: auto;
     }
-
+    .hobbies__content {
+        width: 80%;
+        margin: auto;
+    }
     .hobbies__me {
-        width: 50%;
-        margin: 2rem auto 4rem;
+        width: 80%;
+        margin: auto;
     }
-
-    .hobbies__content p {
-        margin: 2rem 0 1.5rem;
-    }
-
 }
 
 /* ==========Media Queries (Small Devices)============  */

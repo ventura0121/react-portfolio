@@ -115,13 +115,11 @@ img {
 
 /* ==========Media Queries (Medium Devices)============  */
 @media screen and (max-width: 1024px){
-    .container{
-        width: var(--container-width-md);
+    section {
+        width: 100%;
+        display: contents;
+        overflow: hidden;
 }
-
-section {
-    margin-top: 6rem;
-    }
 }
 
 /* ==========Media Queries (Small Devices)============  */

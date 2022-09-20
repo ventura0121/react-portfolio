@@ -75,8 +75,11 @@
 /* ==========Media Queries (Medium Devices)============  */
 @media screen and (max-width: 1024px){
 	.portfolio__container{
-		grid-template-columns: 1fr, 1fr;
+		grid-template-columns: 2fr;
 		gap: 1.2rem;
+		margin:auto ;
+		width:80%;
+		margin-bottom: 3rem;
 	}
 }
 

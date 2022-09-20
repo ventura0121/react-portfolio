@@ -13,7 +13,7 @@ const About = () => {
           <p className="about__info">
            Hi there! I am a second generation Latino - the first in my family to go and graduate from college. I graduated with a Bachelor of Science degree in Civil Engineering in 2020 and worked as a project engineer for two years at a construction management company. I completed the General Assembly Software Engineering Immersive program this past summer as I begin my grand entrance in the tech field. Instead of building skyscrapers, I am now building fun coding projects!
           </p>
-      <div className="container about__container">
+      <div className="about__container">
         <div className="about__me">
           <div className="about__me-image">
             <img src={Graduation} alt="About Image" />

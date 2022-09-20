@@ -58,9 +58,21 @@ input, textarea {
 /* ==========Media Queries (Medium Devices)============  */
 @media screen and (max-width: 1024px){
 	.contact__container{
+        display: contents;
 		grid-template-columns: 1fr;
 		gap: 2rem;
+        width: 80%;
 	}
+    .contact__option {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1.5rem;
+    }
+    
+    form{
+        width: 80%;
+        margin: auto;
+    }
 }
 
 /* ==========Media Queries (Small Devices)============  */
