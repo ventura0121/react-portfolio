@@ -83,6 +83,23 @@
     
 }
 
+/* ==========Media Queries (Large Devices)============  */
+@media screen and (max-width: 1600px){
+
+    .about__container {
+        grid-template-columns: 38% 40%;
+        gap: 10%;
+        margin-left: 10rem;
+        margin-bottom: 4rem;
+    }
+
+    .about__info {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+}
+
 /* ==========Media Queries (Medium Devices)============  */
 @media screen and (max-width: 1024px){
     .about__container {

@@ -58,6 +58,23 @@ input, textarea {
     color: var(--color-white);
 }
 
+
+/* ==========Media Queries (Large Devices)============  */
+@media screen and (max-width: 1600px){
+	.contact__container{
+        display: contents;
+	}
+    .contact__option {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1.5rem;
+    }
+    form{
+        width: 80%;
+        margin: auto;
+    }
+}
+
 /* ==========Media Queries (Medium Devices)============  */
 @media screen and (max-width: 1024px){
 	.contact__container{
@@ -76,21 +93,5 @@ input, textarea {
         width: 80%;
         margin: auto;
 
-    }
-}
-
-/* ==========Media Queries (Small Devices)============  */
-@media screen and (max-width: 600px){
-	.contact__container{
-        display: contents;
-	}
-    .contact__option {
-        width: 80%;
-        margin: auto;
-        margin-bottom: 1.5rem;
-    }
-    form{
-        width: 80%;
-        margin: auto;
     }
 }

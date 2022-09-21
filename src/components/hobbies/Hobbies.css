@@ -90,6 +90,18 @@
     color: var(--color-light);
 }
 
+
+/* ==========Media Queries (Large Devices)============  */
+@media screen and (max-width: 1600px){
+    .hobbies__container {
+        margin-bottom: 2rem;
+        grid-template-columns: 30% 55%;
+        gap: 5%;
+        margin-left: 10rem;
+        margin-right: 1rem;
+    }
+}
+
 /* ==========Media Queries (Medium Devices)============  */
 @media screen and (max-width: 1024px){
     .hobbies__container {
