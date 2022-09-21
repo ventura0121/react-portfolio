@@ -42,10 +42,13 @@
 
 /* ==========Media Queries (Large Devices)============  */
 @media screen and (max-width: 1600px){
+	#portfolio {
+		margin-top: 20rem;	
+		margin-bottom: 15rem;	
+	}
 	.portfolio__container {
 		margin-left: 10rem;
 		margin-right: 10rem;
-		margin-bottom: 3rem;
 	}
 }
 

@@ -31,10 +31,3 @@ nav a.active{
     background: var(--color-primary);
     color: var(--color-bg);
 }
-
-/* ==========Media Queries (Large Devices)============  */
-@media screen and (max-width: 1400px){
-    nav {
-        display: none;
-    }
-}

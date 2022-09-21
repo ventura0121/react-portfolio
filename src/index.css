@@ -117,8 +117,6 @@ img {
 @media screen and (max-width: 1600px){
     section {
         width: 100%;
-        display: contents;
-        overflow: hidden;
         margin-bottom: 2rem;
     }
 }
