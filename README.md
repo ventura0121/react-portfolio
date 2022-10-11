@@ -27,9 +27,9 @@ Social Links,
 Resume Link
 
 ### Stretch Goals (Completed)
-Contact Form
-Showcase Personality
-Screen Size compatibility (Media Queries) - now compatible with tablets and mobile devices. 
+Contact Form <br />
+Showcase Personality <br />
+Screen Size compatibility (Media Queries) - now compatible with tablets and mobile devices.  
 
 ### Anything Else You'd Like Us to Know
 Additionally, EmailJS was used to create a working contact form to have people reach out to me with messages. 
